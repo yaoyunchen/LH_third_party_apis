@@ -121,9 +121,9 @@ $(function() {
   var loadNearby = function (lat, long) {
     var searchURL = "";
     if (type == "lighthouse") {
-      searchURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + lat + ',' + long + '&radius=50000&name=lighthouse&sensor=false&key=AIzaSyAMH3e1p_cn6wTz_Ja7RN3HlcsZTmzNuug&callback=initMap';
+      searchURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + lat + ',' + long + '&radius=50000&name=lighthouse&sensor=false&key=[KEY]&callback=initMap';
     } else if (type == "wasted") {
-      searchURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + lat + ',' + long + '&radius=50000&types=(bar|night_club|liquor_store)&sensor=false&key=AIzaSyAMH3e1p_cn6wTz_Ja7RN3HlcsZTmzNuug&callback=initMap';
+      searchURL = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + lat + ',' + long + '&radius=50000&types=(bar|night_club|liquor_store)&sensor=false&key=[KEY]&callback=initMap';
     }
     
 
