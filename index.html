@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>API Madness</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='js/application.js'></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMH3e1p_cn6wTz_Ja7RN3HlcsZTmzNuug&callback=initMap">
+    </script>
+
+  </head>
+
+  <body>
+    <!-- Start container -->
+    <div class="container-fluid">
+      <!-- Start title -->
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Lighthouse's Lighthouse App </h1>
+          <small>
+            I heard you like lighthouses, so have some lighthouses in a lighthouse app.
+          </small>
+        </div> 
+      </div>
+      <!-- End title -->
+
+      <!-- Start map -->
+      <div class="row">
+        <div id="map">
+        </div>
+      </div>
+      <!-- End map -->
+      <hr/>
+      <!-- Start control panel -->
+      <div class="row">
+        <div class="col-sm-12">
+          <button class="btn btn-primary form-control get-wasted">
+            SHOW ME SOMEWHERE TO GET WASTED
+          </button>
+          <input type="submit" class="btn btn-primary form-control get-lighthouses" value="LIGHTHOUSES (or anything with the name)">
+          <hr/>
+          <!-- <input type="submit" class="btn btn-primary form-control get-wasted" value="SHOW ME SOMEWHERE TO GET WASTED"> -->
+        </div>
+      </div>
+      <!-- End control panel -->
+
+    </div>
+    <!-- End container -->
+
+  </body>
+
+</html>
